@@ -124,9 +124,44 @@ body {
   width: 500px;
 }
 
-/* FLOAT & ALIGNMENT */
+/* ALIGNMENT */
 
 .container {
   max-width: 600px;
   margin: 30px auto;
+}
+
+/* LINKS & BUTTONS */
+
+a {
+  color: #333; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+a:active {
+  color: red;
+}
+
+.btn {
+  background: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #f4f4f4;
+  background: #446190;
 }
