@@ -3,6 +3,10 @@ div {
   padding: 10px 0;
 }
 
+hr {
+  margin: 20px 0;
+}
+
 .heading2 {
   color: blue;
 }
@@ -164,4 +168,66 @@ a:active {
 .btn:hover {
   color: #f4f4f4;
   background: #446190;
+}
+
+/* SIDE MENU STYLING */
+
+.sideMenu {
+  list-style: none;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.sideMenu li {
+  font-size: 1.8rem;
+  line-height: 2.4em;
+  border-bottom: 1px dotted #ddd;
+}
+
+.sideMenu li:last-child {
+  border-bottom: none;
+}
+
+.sideMenu li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sideMenu li a:hover {
+  color: coral;
+}
+
+/* NAV MENU STYLING */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #4c6ca0;
+  margin-bottom: 25px;
+  overflow:auto;
+}
+
+.logo {
+  padding: 5px 0;
+}
+
+nav a {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.navBar {
+  list-style: none;
+  display: flex;
+  padding: 5px 3px;
+}
+
+.navBar li a {
+  padding: 0 8px;
+}
+
+.navBar li a:hover {
+  background: #446190
 }
