@@ -231,3 +231,26 @@ nav a {
 .navBar li a:hover {
   background: #446190
 }
+
+/* INLINE, BLOCK & INLINE BLOCK DISPLAY */
+
+.inlineBlock li {
+  display: inline;
+}
+
+.inlineBlock li a {
+  padding-right: 20px;
+}
+
+.image img {
+  display: block;
+  margin: auto;
+}
+
+.boxer {
+  box-sizing: border-box;
+  width: 20%;
+  display: inline-block;
+  background-color: #f4f4f4;
+  border: 1px solid black;
+}
